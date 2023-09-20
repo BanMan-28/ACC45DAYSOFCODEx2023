@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T,X,Y,i,a;
+	cin>>T;
+	
+	for(i=0;i<T;i++){
+	    cin>>X>>Y;
+	    if(X<=Y){
+	        cout<<"0";
+	    }
+	    else if(X>Y){
+	        cout<<X-Y;
+	    }
+	    
+	}
+	return 0;
+}
